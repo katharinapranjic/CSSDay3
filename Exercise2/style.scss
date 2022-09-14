@@ -1,0 +1,135 @@
+body {
+    font-family: "Arial regular"
+}
+.container {
+    width: 250px;
+    height: 650px;
+    border: 1px solid black;
+    background-color: beige;
+    
+.thick{
+width:98%;
+height: 10px;
+background-color: black;
+border:0;
+margin-block: 0;
+margin-bottom:-10px;
+}
+
+
+
+h1 {
+    padding-left: 2px;
+    margin-top: 0;
+    margin-block-end: 0;
+}
+
+h5 {
+    margin-block: 0;
+    padding-left: 2px;
+}
+
+.cup {
+    p{
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding-right: 5px;
+    font-size: x-small;
+    font-weight: 800;
+
+    }
+}
+
+.serving {
+    
+     display: flex;
+     flex-basis: 350px;
+     display: grid;
+     grid-template-columns: 60% 20% 20%;
+     font-size: x-small;
+     font-weight: 800;
+     
+
+}
+.thinLine {
+    width:98%;
+    height: 1.5px;
+    background-color: black;
+    border:0;
+    margin-top:-11px;
+    margin-bottom: -11px;
+}
+.mainRow {
+
+}
+.secondRow{
+    text-align: right;
+}
+.thirdRow {
+    text-align: right;
+    padding-right: 5px;
+}
+.flexOne {
+    display: flex;
+     flex-basis: 350px;
+     display: grid;
+     grid-template-columns: 60% 20% 20%;
+     font-size: small;
+     font-weight: 800;
+     padding-left: 5px;
+}
+.lightLine {
+    width:92%;
+    height: 1.5px;
+    background-color: black;
+    border:0;
+    margin-block: -13px;
+    margin-left: 18px;
+    opacity:0.3 ;
+}
+.inlineText {
+    padding-left: 15px;
+    font-size: 12.5px;
+}
+.middleLine {
+    width:98%;
+    height: 5px;
+    background-color: black;
+    border:0;
+    margin-top:-11px;
+    margin-bottom:-10px;
+}
+.tableCalories {
+    display: flex;
+    flex-basis: 250px;
+    display: grid;
+    grid-template-columns: 30% 25% 25% 25%;
+    font-size: x-small;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: -55px;
+}
+.tableCaloriesTwo {
+    display: flex;
+    flex-basis: 250px;
+    display: grid;
+    grid-template-columns: 30% 25% 25% 25%;
+    font-size: x-small;
+    padding-left: 5px;
+    padding-top: 2px;
+    margin-top: -25px;
+
+}
+.tableCaloriesThree {
+    display: flex;
+    flex-basis: 250px;
+    display: grid;
+    grid-template-columns: 50% 0% 25% 25%;
+    font-size: x-small;
+    padding-left: 5px;
+    padding-top: 2px;
+    margin-top: -25px;
+
+}
+}
